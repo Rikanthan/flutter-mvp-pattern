@@ -31,8 +31,8 @@ class _homepageState extends State<homepage> implements App_view {
 
           ),
           SizedBox(height: 15.0,),
-          RaisedButton(
-            onPressed: (){
+          GestureDetector(
+            onTap: (){
               this.widget.presenter.Buttonclick();
             },
             child: Icon(
